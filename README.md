@@ -1,20 +1,20 @@
-# golang-repo-template
+# generate-fake-data
 
-:smile: golang-repo-template
+:smile: generate-fake-data
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/golang-repo-template)
-[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/golang-repo-template/blob/master/COPYRIGHT)
-[![GitHub release](https://img.shields.io/github/release/moul/golang-repo-template.svg)](https://github.com/moul/golang-repo-template/releases)
-[![Docker Metrics](https://images.microbadger.com/badges/image/moul/golang-repo-template.svg)](https://microbadger.com/images/moul/golang-repo-template)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/generate-fake-data)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/generate-fake-data/blob/master/COPYRIGHT)
+[![GitHub release](https://img.shields.io/github/release/moul/generate-fake-data.svg)](https://github.com/moul/generate-fake-data/releases)
+[![Docker Metrics](https://images.microbadger.com/badges/image/moul/generate-fake-data.svg)](https://microbadger.com/images/moul/generate-fake-data)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
-[![Go](https://github.com/moul/golang-repo-template/workflows/Go/badge.svg)](https://github.com/moul/golang-repo-template/actions?query=workflow%3AGo)
-[![Release](https://github.com/moul/golang-repo-template/workflows/Release/badge.svg)](https://github.com/moul/golang-repo-template/actions?query=workflow%3ARelease)
-[![PR](https://github.com/moul/golang-repo-template/workflows/PR/badge.svg)](https://github.com/moul/golang-repo-template/actions?query=workflow%3APR)
-[![GolangCI](https://golangci.com/badges/github.com/moul/golang-repo-template.svg)](https://golangci.com/r/github.com/moul/golang-repo-template)
-[![codecov](https://codecov.io/gh/moul/golang-repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/golang-repo-template)
-[![Go Report Card](https://goreportcard.com/badge/moul.io/golang-repo-template)](https://goreportcard.com/report/moul.io/golang-repo-template)
-[![CodeFactor](https://www.codefactor.io/repository/github/moul/golang-repo-template/badge)](https://www.codefactor.io/repository/github/moul/golang-repo-template)
+[![Go](https://github.com/moul/generate-fake-data/workflows/Go/badge.svg)](https://github.com/moul/generate-fake-data/actions?query=workflow%3AGo)
+[![Release](https://github.com/moul/generate-fake-data/workflows/Release/badge.svg)](https://github.com/moul/generate-fake-data/actions?query=workflow%3ARelease)
+[![PR](https://github.com/moul/generate-fake-data/workflows/PR/badge.svg)](https://github.com/moul/generate-fake-data/actions?query=workflow%3APR)
+[![GolangCI](https://golangci.com/badges/github.com/moul/generate-fake-data.svg)](https://golangci.com/r/github.com/moul/generate-fake-data)
+[![codecov](https://codecov.io/gh/moul/generate-fake-data/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/generate-fake-data)
+[![Go Report Card](https://goreportcard.com/badge/moul.io/generate-fake-data)](https://goreportcard.com/report/moul.io/generate-fake-data)
+[![CodeFactor](https://www.codefactor.io/repository/github/moul/generate-fake-data/badge)](https://www.codefactor.io/repository/github/moul/generate-fake-data)
 
 
 ## Usage
@@ -26,12 +26,12 @@ TODO
 ### Using go
 
 ```console
-$ go get -u moul.io/golang-repo-template
+$ go get -u moul.io/generate-fake-data
 ```
 
 ### Releases
 
-See https://github.com/moul/golang-repo-template/releases
+See https://github.com/moul/generate-fake-data/releases
 
 ## Contribute
 
@@ -54,7 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://manfred.life"><img src="https://avatars1.githubusercontent.com/u/94029?v=4" width="100px;" alt=""/><br /><sub><b>Manfred Touron</b></sub></a><br /><a href="#maintenance-moul" title="Maintenance">🚧</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Documentation">📖</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Tests">⚠️</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Code">💻</a></td>
+    <td align="center"><a href="http://manfred.life"><img src="https://avatars1.githubusercontent.com/u/94029?v=4" width="100px;" alt=""/><br /><sub><b>Manfred Touron</b></sub></a><br /><a href="#maintenance-moul" title="Maintenance">🚧</a> <a href="https://github.com/moul/generate-fake-data/commits?author=moul" title="Documentation">📖</a> <a href="https://github.com/moul/generate-fake-data/commits?author=moul" title="Tests">⚠️</a> <a href="https://github.com/moul/generate-fake-data/commits?author=moul" title="Code">💻</a></td>
     <td align="center"><a href="https://manfred.life/moul-bot"><img src="https://avatars1.githubusercontent.com/u/41326314?v=4" width="100px;" alt=""/><br /><sub><b>moul-bot</b></sub></a><br /><a href="#maintenance-moul-bot" title="Maintenance">🚧</a></td>
   </tr>
 </table>
@@ -67,7 +67,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ### Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/moul/golang-repo-template.svg)](https://starchart.cc/moul/golang-repo-template)
+[![Stargazers over time](https://starchart.cc/moul/generate-fake-data.svg)](https://starchart.cc/moul/generate-fake-data)
 
 ## License
 

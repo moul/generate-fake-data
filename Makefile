@@ -1,5 +1,5 @@
-GOPKG ?=	moul.io/golang-repo-template
-DOCKER_IMAGE ?=	moul/golang-repo-template
+GOPKG ?=	moul.io/generate-fake-data
+DOCKER_IMAGE ?=	moul/generate-fake-data
 GOBINS ?=	.
 NPM_PACKAGES ?=	.
 
