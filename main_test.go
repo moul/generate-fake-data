@@ -7,7 +7,7 @@ import (
 )
 
 func TestRun(t *testing.T) {
-	err := run(nil)
+	err := run([]string{"generate-fake-data"})
 	if err != nil {
 		t.Fatalf("err should be nil: %v", err)
 	}
