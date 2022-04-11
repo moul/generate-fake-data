@@ -38,7 +38,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Set up Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: 1.15.2
       - name: Cache Go modules
@@ -79,7 +79,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: ${{ matrix.golang }}
       - name: Run tests on Windows
@@ -98,7 +98,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: ${{ matrix.golang }}
       - uses: actions/cache@v2.1.6
@@ -140,7 +140,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: ${{ matrix.golang }}
       - uses: actions/cache@v2.1.6
