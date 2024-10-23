@@ -11,26 +11,26 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v4.2.2
       -
         name: Unshallow
         run: git fetch --prune --unshallow
       -
         name: Run Semantic Release
         id: semantic
-        uses: codfish/semantic-release-action@v1
+        uses: codfish/semantic-release-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       -
         name: Set up Go
         if: steps.semantic.outputs.new-release-published == 'true'
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: 1.15.2
       -
         name: Cache Go modules
         if: steps.semantic.outputs.new-release-published == 'true'
-        uses: actions/cache@v2.1.6
+        uses: actions/cache@v4.1.2
         with:
           path: ~/go/pkg/mod
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
@@ -39,7 +39,7 @@ jobs:
       -
         name: Run GoReleaser
         if: steps.semantic.outputs.new-release-published == 'true'
-        uses: goreleaser/goreleaser-action@v2.6.1
+        uses: goreleaser/goreleaser-action@v6.0.0
         with:
           version: latest
           args: release --rm-dist
